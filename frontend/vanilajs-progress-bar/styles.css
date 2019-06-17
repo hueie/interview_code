@@ -1,0 +1,33 @@
+#TitleSpan{
+    font-style: bold;
+    font-size: 40px;
+    margin: 5px;
+}
+select, button{
+    margin: 5px;
+}
+
+.meter { 
+	height: 40px;
+    width: 320px;
+    position: relative;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.meter > .percentspan {
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    z-index: 1;
+}
+
+.meter > .barspan {
+    display: block;
+    height: 100%;
+    background-color: skyblue;
+    position: relative;
+    overflow: hidden;
+    transition: width 0.5s linear
+}
+
