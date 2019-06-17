@@ -1,5 +1,6 @@
-https://dev.to/aurelkurtula/unit-testing-with-vanilla-javascript-the-very-basics-7jms
-index.html
-progressbar.js
-progressbar.test.js
-SpecRunner.html
+index.html: Execution file
+endpoint.json: endpoint data
+SpecRunner.html: Jasmine Unit Test for vanilla JS
+progressbar.js: Component js
+progressbar.test.js: Component Test js
+index.js: initilizaion js
