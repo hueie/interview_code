@@ -1,0 +1,23 @@
+{
+  "extends": ["tslint:recommended", "tslint-react"],
+  "rules": {
+//    "moduleResolution": "node",
+//    "allowSyntheticDefaultImports": true,
+//    "esModuleInterop": true,
+    "max-line-length": false,
+    "no-empty-interface": false,
+    "no-console": false,
+    "member-access": [true, "no-public"],
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "jsx-no-lambda": false,
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration"
+    ]
+  }
+}
