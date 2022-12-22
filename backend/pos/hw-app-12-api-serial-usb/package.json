@@ -14,7 +14,7 @@
     "cors": "^2.8.5",
     "drivelist": "^8.0.6",
     "express": "^4.16.4",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "serialport": "^7.1.5",
     "sf": "^0.2.0",
     "usb": "^1.5.0",
